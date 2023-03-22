@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct VideoListView: View {
+    // MARK: - PROPERTIES
+    
+    
+    // MARK: - BODY
     var body: some View {
-        Text("Video")
+        VStack {
+            Image(systemName: "video")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Video")
+        }
+        
     }
 }
 
+// MARK: - PREVIEW
 struct VideoListView_Previews: PreviewProvider {
     static var previews: some View {
         VideoListView()

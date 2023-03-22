@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct GalleryView: View {
+    // MARK: - PROPERTIES
+    
+    
+    // MARK: - BODY
     var body: some View {
-        Text("Gallery")
+        VStack {
+            Image(systemName: "photo")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Gallery")
+        }
     }
 }
 
+// MARK: - PREVIEW
 struct GalleryView_Previews: PreviewProvider {
     static var previews: some View {
         GalleryView()
