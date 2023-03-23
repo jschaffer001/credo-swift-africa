@@ -46,6 +46,8 @@
 		ACCFB7E129CB989E005A6B87 /* VideoPlayerUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB7E029CB989E005A6B87 /* VideoPlayerUtility.swift */; };
 		ACCFB7E329CB9CED005A6B87 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB7E229CB9CED005A6B87 /* LocationModel.swift */; };
 		ACCFB7E529CBA2A2005A6B87 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB7E429CBA2A2005A6B87 /* MapAnnotationView.swift */; };
+		ACCFB7E729CBA85F005A6B87 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB7E629CBA85F005A6B87 /* MotionAnimationView.swift */; };
+		ACCFB7E929CBC99F005A6B87 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB7E829CBC99F005A6B87 /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,8 @@
 		ACCFB7E029CB989E005A6B87 /* VideoPlayerUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUtility.swift; sourceTree = "<group>"; };
 		ACCFB7E229CB9CED005A6B87 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		ACCFB7E429CBA2A2005A6B87 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		ACCFB7E629CBA85F005A6B87 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		ACCFB7E829CBC99F005A6B87 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +203,8 @@
 				ACCFB7DB29CB836D005A6B87 /* VideoListItemView.swift */,
 				ACCFB7DD29CB9709005A6B87 /* VideoPlayerView.swift */,
 				ACCFB7E429CBA2A2005A6B87 /* MapAnnotationView.swift */,
+				ACCFB7E629CBA85F005A6B87 /* MotionAnimationView.swift */,
+				ACCFB7E829CBC99F005A6B87 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,9 +338,11 @@
 				ACCFB7DA29CB8301005A6B87 /* VideoModel.swift in Sources */,
 				ACCFB7CE29CB7259005A6B87 /* InsetGalleryView.swift in Sources */,
 				ACCFB7E329CB9CED005A6B87 /* LocationModel.swift in Sources */,
+				ACCFB7E929CBC99F005A6B87 /* AnimalGridItemView.swift in Sources */,
 				ACCFB7D429CB7905005A6B87 /* InsetMapView.swift in Sources */,
 				ACCFB7DC29CB836D005A6B87 /* VideoListItemView.swift in Sources */,
 				ACCFB7C429CB612A005A6B87 /* CodableBundleExtension.swift in Sources */,
+				ACCFB7E729CBA85F005A6B87 /* MotionAnimationView.swift in Sources */,
 				ACCFB7CC29CB711C005A6B87 /* HeadingView.swift in Sources */,
 				ACCFB7DE29CB9709005A6B87 /* VideoPlayerView.swift in Sources */,
 			);
