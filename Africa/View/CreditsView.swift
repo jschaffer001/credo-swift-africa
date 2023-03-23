@@ -16,11 +16,11 @@ struct CreditsView: View {
                 .frame(width: 128, height: 128)
             
             Text("""
-    Copyright © Jonathan Schaffer
-    All rights reserved
-    Better Apps ♡ Less Code
-    """)
-            .font(.footnote)
+            Copyright © Jonathan Schaffer
+            All rights reserved
+            Better Apps ♡ Less Code
+            """)
+                .font(.footnote)
         .multilineTextAlignment(.center)
         } //: VSTACK
         .padding()
